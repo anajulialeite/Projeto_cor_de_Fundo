@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Comic Sans MS';
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: rgb(175, 111, 235);
+    background-position: center;
+    background-size: cover;
+}
+
+main {
+    font-family: 'Comic Sans MS';
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    max-height: 80%;
+    padding: 20px;
+}
+
+button, input[type="color"], label {
+    cursor: pointer;
+}
+
+button, input[type="text"] {
+    font-family: 'Comic Sans MS';
+    text-align: center;
+    margin: 5px;
+    padding: 10px;
+    font-size: 15px;
+    outline: none;
+}
+
+input[type="file"] {
+    display: none;
+}
+
+label{
+    border:  1px solid #ccc;
+    display: inline-block;
+    padding: 6px 12px;
+    border-radius: 4px;
+    font-size: 14px;
+    margin-top: 10px;
+    background-color: #f8f8f8;
+    transition: all 0.1s ease; /* Adiciona uma transição suave */
+}
+
+label:active {
+    transform: translateY(2px); /* Move o botão para baixo */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Adiciona sombra */
+    background-color: #e0e0e0; /* Altera a cor de fundo ao ser pressionado */
+}
+
+label:active:hover {
+    color: rgba(0, 0, 0, 0);
+}
+
+h1 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}

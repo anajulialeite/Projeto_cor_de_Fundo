@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Projeto Plano de Fundo</title>
+</head>
+<body>
+    
+    <main>
+        <h1>Troca de Cores</h1>
+        <button onclick="trocaCor('red')">Vermelho</button>   
+        <button onclick="trocaCor('green')">Verde</button>
+        <button onclick="trocaCor('blue')">Azul</button>
+        <button onclick="trocaCor('yellow')">Amarelo</button>
+        <button onclick=" corAleatoria()">Cor Aleatória</button>
+        <br>
+        <input placeholder="Digite a cor" type="text" class="input-cor">
+        <button onclick="aplicaCorPersonalizada()">Aplicar cor</button>
+        <input type="color" onchange="trocaCor(this.value)">
+        <br>
+        <label>
+            Escolher Imagem
+            <input type="file" accept="image/*" onchange="escolherImagem(this.files[0])">
+        </label>
+
+    </main>
+</body>
+<script src="./script.js"></script>
+</html>
