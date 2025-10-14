@@ -6,7 +6,7 @@ Um site que você muda a cor de fundo escolhendo as cores dos botões ou criando
 
 ## Link do projeto
 
-Esse é o link do meu projeto: <a href= "https://anajulialeite.github.io/Projeto_cor_de_Fundo/">Tela de Fundo</a>
+Esse é o link do meu projeto <a href= "https://anajulialeite.github.io/Projeto_cor_de_Fundo/">Tela de Fundo</a>
 
 ## Demonstração
 
